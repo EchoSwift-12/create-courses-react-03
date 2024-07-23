@@ -1,9 +1,12 @@
-import CreateCourse from "./components/createcourse";
+import { CoursesContextProvider } from "./providers/contextproviders"
+import CreateCourse from "./components/createcourse"
 
 const  App = ()=>{
 
   return<>
-   <CreateCourse/>
+  <CoursesContextProvider>
+    <CreateCourse/>
+  </CoursesContextProvider>
   </>
 }
 export default App
