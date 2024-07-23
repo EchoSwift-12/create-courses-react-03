@@ -14,11 +14,9 @@ const CreateCourse = () => {
     return <>
         <input type="text" placeholder="Course Name"
             onChange={changeCourseName} />
-        <p>{CourseName}</p>
 
         <input type="text" placeholder="Course Description"
             onChange={changeCourseDescription} />
-        <p>{CourseDescription}</p>
     </>
 }
 export default CreateCourse
